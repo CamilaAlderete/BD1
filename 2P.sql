@@ -1,5 +1,5 @@
 -- @C:\SQL\2P.sql;
-
+-
 --1 Coneccion
 CONN system/admin;
 
