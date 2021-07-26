@@ -10,7 +10,7 @@ CREATE USER edgar IDENTIFIED BY admin DEFAULT TABLESPACE users TEMPORARY TABLESP
 --3 Asignar permisos al usuario
 GRANT CREATE ANY INDEX, CREATE SESSION, CREATE TABLE, CREATE SEQUENCE, CREATE TRIGGER, CREATE VIEW TO edgar;
 
---4 Coneccion del usuario
+--4 Conexion del usuario
 CONN edgar/admin;
 
 --5 Estructura y Restricciones para tabla Persona:
